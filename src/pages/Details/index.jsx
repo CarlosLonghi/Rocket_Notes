@@ -8,7 +8,10 @@ export function Details(){
       <h1>Olá mundo!</h1>
       <span>Cadu Dev</span>
 
-      <Button />
+      <Button title='Login' loading/>
+      <Button title='Cadastrar'/>
+      <Button title='Voltar'/>
+
     </Container>
   )
 }
