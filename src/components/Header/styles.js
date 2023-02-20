@@ -49,5 +49,11 @@ export const Logout = styled.button`
   > svg {
     color: ${({ theme }) => theme.COLORS.GRAY_100};
     font-size: 36px;
+    transition: all 0.2s;
+
+    :hover {
+      color: ${({ theme }) => theme.COLORS.ORANGE};
+      scale: 1.1;
+    }
   }
 `

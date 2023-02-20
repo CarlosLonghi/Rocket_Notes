@@ -31,13 +31,13 @@ export const Brand = styled.div`
 
   > h1 {
     font-size: 24px;
-    color: ${({theme}) => theme.COLORS.ORANGE};
+    color: ${({ theme }) => theme.COLORS.ORANGE};
   }
 `
 
 export const Menu = styled.ul`
   grid-area: menu;
-  
+
   padding-top: 64px;
   text-align: center;
 
@@ -46,7 +46,6 @@ export const Menu = styled.ul`
   > li {
     margin-bottom: 24px;
   }
-
 `
 
 export const Search = styled.div`
@@ -57,14 +56,13 @@ export const Search = styled.div`
 
 export const Content = styled.div`
   grid-area: content;
-  
 `
 
 export const NewNote = styled.button`
   grid-area: newnote;
 
   border: none;
-  background-color: ${({theme}) => theme.COLORS.ORANGE};
+  background-color: ${({ theme }) => theme.COLORS.ORANGE};
 
   display: flex;
   align-items: center;
