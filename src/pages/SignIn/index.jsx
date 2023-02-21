@@ -5,14 +5,9 @@ import { Button } from '../../components/Button'
 
 import { Container, Form, Background } from "./styles";
 
-export function SingIn() {
+export function SignIn() {
   return (
     <Container>
-
-      <Background
-        alt='Imagem de um bloco de notas sobre a mesa com um café'
-      />
-
       <Form>
         <h1>Rocket Notes</h1>
         <p>Aplicação para salvar e gerenciar os seus links úteis</p>
@@ -34,6 +29,9 @@ export function SingIn() {
         <a href="#">Criar conta</a>
       </Form>
       
+      <Background
+        alt='Imagem de um bloco de notas sobre a mesa com um café'
+      />
     </Container>
   )
 }

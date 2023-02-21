@@ -8,7 +8,9 @@ import { Container, Form, Background } from "./styles";
 export function SignUp() {
   return (
     <Container>
-      <Background/>
+      <Background
+        alt='Imagem de um bloco de notas e uma caneta sobre a mesa'
+      />
       <Form>
         <h1>Rocket Notes</h1>
         <p>Aplicação para salvar e gerenciar os seus links úteis</p>
