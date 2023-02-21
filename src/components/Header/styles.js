@@ -48,7 +48,7 @@ export const Logout = styled.button`
 
   > svg {
     color: ${({ theme }) => theme.COLORS.GRAY_100};
-    font-size: 36px;
+    font-size: 35px;
     transition: all 0.2s;
 
     :hover {
