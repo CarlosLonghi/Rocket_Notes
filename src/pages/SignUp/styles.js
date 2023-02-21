@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import backgroundImg from '../../assets/background_sign_in.png'
+import backgroundImg from '../../assets/background_sign_up.png'
 
 export const Container = styled.div`
   height: 100vh;
@@ -18,6 +18,8 @@ export const Form = styled.form`
   align-items: center;
   text-align: center;
 
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+
   > h1 {
     font-size: 48px;
     color: ${({ theme }) => theme.COLORS.ORANGE};
@@ -25,12 +27,13 @@ export const Form = styled.form`
 
   > h2 {
     font-size: 24px;
-    margin-top: 84px;
-    margin-bottom: 24px;
+
+    padding: 48px 0;
+    font-weight: 500; 
   }
 
   > p {
-    font-size: 14px;
+    font-size: 16px;
     color: ${({ theme }) => theme.COLORS.GRAY_100};
   }
 
@@ -39,8 +42,10 @@ export const Form = styled.form`
     color: ${({ theme }) => theme.COLORS.ORANGE};
   }
 `
+
 export const Background = styled.div`
   flex: 1;
   background: url(${backgroundImg}) no-repeat center center;
   background-size: cover;
+  opacity: 0.8;
 `

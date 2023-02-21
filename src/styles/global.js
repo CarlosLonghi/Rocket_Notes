@@ -5,6 +5,8 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: 'Roboto Slab', serif;
   }
 
   body {
@@ -15,7 +17,6 @@ export default createGlobalStyle`
   }
 
   border-style, input, button, textarea {
-    font-family: 'Roboto Slab', serif;
     font-size: 16px;
     outline: none;
   }
@@ -26,10 +27,11 @@ export default createGlobalStyle`
 
   button, a {
     cursor: pointer;
-    transition: filter 0.2s;
+    transition: all 0.2s;
   }
 
   button:hover, a:hover {
     filter: brightness(0.9);
+    scale: 1.05;
   }
 `
