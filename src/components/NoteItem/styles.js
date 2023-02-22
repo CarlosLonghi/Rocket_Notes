@@ -19,6 +19,10 @@ export const Container = styled.div`
     border: none;
     background: none;
     font-size: 25px;
+
+    :hover {
+      scale: 1.2;
+    }
   }
 
   .button-delete {
