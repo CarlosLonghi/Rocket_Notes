@@ -46,7 +46,7 @@ export const Avatar = styled.div`
     width: 185px;
     height: 185px;
     border-radius: 50%;
-    box-shadow: 5px 2px 5px black;
+    box-shadow: 8px 5px 5px black;
   }
 
   > label {
@@ -74,6 +74,11 @@ export const Avatar = styled.div`
       width: 20px;
       height: 20px;
       color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+    }
+
+    transition: all 0.2s;
+    :hover {
+      scale: 1.1;
     }
   }
 `
