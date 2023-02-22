@@ -11,20 +11,21 @@ export const Container = styled.div`
   border: ${({ theme, isNew }) =>
     isNew ? `1px dashed ${theme.COLORS.GRAY_300}` : 'none'};
 
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   border-radius: 10px;
   padding-right: 16px;
 
   > button {
     border: none;
     background: none;
+    font-size: 25px;
   }
 
   .button-delete {
-    color: ${({theme}) => theme.COLORS.RED};
+    color: ${({ theme }) => theme.COLORS.RED};
   }
   .button-add {
-    color: ${({theme}) => theme.COLORS.ORANGE};
+    color: ${({ theme }) => theme.COLORS.GREEN};
   }
 
   > input {
