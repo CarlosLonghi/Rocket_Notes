@@ -35,6 +35,11 @@ export const Form = styled.form`
     a {
       font-size: 20px;
       color: ${({ theme }) => theme.COLORS.GRAY_100};
+      
+      transition: all 0.2s;
+      :hover {
+        scale: 1.1;
+      }
     }
   }
 `

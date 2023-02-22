@@ -16,11 +16,11 @@ export const Container = styled.div`
     svg {
       color: ${({ theme }) => theme.COLORS.GRAY_100};
       font-size: 30px;
-      transition: all 0.2s;
 
+      transition: all 0.2s;
       :hover {
         color: ${({ theme }) => theme.COLORS.WHITE};
-        scale: 1.1;
+        scale: 1.2;
       }
     }
   }
@@ -78,7 +78,7 @@ export const Avatar = styled.div`
 
     transition: all 0.2s;
     :hover {
-      scale: 1.1;
+      scale: 1.2;
     }
   }
 `

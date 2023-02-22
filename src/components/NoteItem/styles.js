@@ -20,6 +20,7 @@ export const Container = styled.div`
     background: none;
     font-size: 25px;
 
+    transition: all 0.2s;
     :hover {
       scale: 1.2;
     }

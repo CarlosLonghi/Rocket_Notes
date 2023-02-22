@@ -27,12 +27,11 @@ export default createGlobalStyle`
 
   button, a {
     cursor: pointer;
-    transition: all 0.2s;
+    transition: filter 0.2s;
     filter: brightness(0.9);
   }
 
   button:hover, a:hover {
     filter: brightness(1);
-    scale: 1.05;
   }
 `
