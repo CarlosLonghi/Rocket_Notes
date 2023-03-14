@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom';
 import { useAuth } from '../../hooks/auth'
 
 import { api } from '../../services/api';
+
 import avatarPlaceHolder from '../../assets/avatar_placeholder.svg'
+
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
 

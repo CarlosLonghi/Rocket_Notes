@@ -3,6 +3,8 @@ import { useAuth } from '../../hooks/auth';
 
 import { api } from '../../services/api';
 
+import avatarPlaceHolder from '../../assets/avatar_placeholder.svg'
+
 import { Container, Profile, Logout } from "./styles";
 
 export function Header() {
