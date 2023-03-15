@@ -51,7 +51,7 @@ export function New() {
     if(newLink){
       return alert('Você esqueceu de adicionar um LINK preenchido! Clique no "+" para adiciona-lo!')
     }
-    
+
     if(newTag){
       return alert('Você esqueceu de adicionar uma TAG preenchida! Clique no "+" para adiciona-la!')
     }
@@ -83,7 +83,7 @@ export function New() {
             onChange={event => setTitle(event.target.value)}
           />
           <TextArea 
-            placeholder='Observações'
+            placeholder='Observações (Opcional)'
             onChange={event => setDescription(event.target.value)}
           />
 
