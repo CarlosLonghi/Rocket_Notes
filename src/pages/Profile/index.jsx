@@ -10,7 +10,6 @@ import avatarPlaceHolder from '../../assets/avatar_placeholder.svg'
 
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
-
 import { Container, Form, Avatar } from "./styles";
 
 export function Profile() {
@@ -48,7 +47,7 @@ export function Profile() {
   return (
     <Container>
       <header>
-        <Link to="/">
+        <Link to={-1}>
           <FiArrowLeft/>
         </Link>
       </header>

@@ -9,7 +9,4 @@ export const Container = styled.button`
   font-size: 16px;
 
   transition: all 0.2s;
-  :hover {
-    scale: 1.1;
-  }
 `

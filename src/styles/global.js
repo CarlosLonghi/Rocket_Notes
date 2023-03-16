@@ -27,7 +27,7 @@ export default createGlobalStyle`
 
   button, a {
     cursor: pointer;
-    transition: filter 0.2s;
+    transition: all 0.2s;
     filter: brightness(0.9);
   }
 
