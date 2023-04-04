@@ -25,9 +25,9 @@ Aplicação React desenvolvida a partir do módulo 9 do Curso Explorer da Rocket
   - Netlify
   - Deploy (Passagem da aplicação para a produção)
 
-## 🔗 Aplicação em produção
+## 🔗 Aplicação em produção  
+<img align=center  height="50" width="50" src="./public/vite.svg" href="https://rocketnotes-c4du-dev.netlify.app/"/> https://rocketnotes-c4du-dev.netlify.app/
 
-[![page](./public/vite.svg)](https://rocketnotes-c4du-dev.netlify.app/)
 
 ## Instalação
 
